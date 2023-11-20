@@ -12,7 +12,7 @@ To install the hook, just add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-- repo: https://github.com/RoyalTS/notebooks-in-order
+- repo: https://github.com/Benetti-Hub/notebooks-in-order
   rev: 0.2.0
   hooks:
   - id: notebooks-in-order
