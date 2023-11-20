@@ -1,5 +1,7 @@
 # notebooks-in-order
 
+Forked from https://github.com/RoyalTS/notebooks-in-order, go give him a star!
+
 Don't you just hate it when people commit Jupyter notebooks with output in which cells have been executed out of sequence? In which not all cells have been executed?
 
 `notebooks-in-order` is a pre-commit hook that enforces notebook execution from top to bottom. That is: every non-empty code cell was executed and the execution counts go from 1 to N.
