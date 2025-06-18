@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notebooks-in-order"
+version = "0.2.1"
+description = "Check Jupyter notebooks were executed in order"
+authors = [
+    { name = "Alessandro Benetti", email = "benettialessandro96@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = ["nbformat"]
+readme = "README.md"
+requires-python = ">=3.7"
+urls = { Homepage = "https://github.com/Benetti-Hub/notebooks-in-order" }
+
+[project.scripts]
+check_notebooks_in_order = "notebooks_in_order.check_notebooks_in_order:main"
